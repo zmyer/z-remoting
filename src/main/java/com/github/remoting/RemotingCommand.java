@@ -1,5 +1,7 @@
 package com.github.remoting;
 
+import com.github.remoting.utils.ProtocolSwitch;
+
 import java.io.Serializable;
 
 /**

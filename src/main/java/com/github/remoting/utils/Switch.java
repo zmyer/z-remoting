@@ -1,4 +1,4 @@
-package com.github.remoting.rpc;
+package com.github.remoting.utils;
 
 /**
  * @author zifeng
@@ -7,5 +7,5 @@ package com.github.remoting.rpc;
 public interface Switch {
     void turnOn(final int index);
 
-    void isOn(final int index);
+    boolean isOn(final int index);
 }

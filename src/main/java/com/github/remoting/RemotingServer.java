@@ -79,8 +79,8 @@ public abstract class RemotingServer {
 
     protected abstract boolean doStart(final String ip);
 
-    public abstract void registerProcessor(final byte protocolCode, final CommandCode commandCode, final
-    RemotingProcessor<?> processor);
+    public abstract void registerProcessor(final byte protocolCode, final CommandCode commandCode,
+            final RemotingProcessor<?> processor);
 
     public abstract void registerDefaultExecutor(final byte protocolCode, final ExecutorService executorService);
 
